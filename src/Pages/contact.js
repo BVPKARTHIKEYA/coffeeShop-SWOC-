@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { FaUser, FaEnvelope, FaRegCommentDots } from 'react-icons/fa'; // Import icons
-import Button from '../componets/Button';
+import Button from '../components/Button'; // Corrected Path
 
 const ContactContainer = styled.div`
   padding: 4rem 2rem;
